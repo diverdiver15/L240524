@@ -20,7 +20,7 @@ int main()
     int position = rand() % (Size + 1);//임의위치
 
 	int inputNumber;
-	cout << " 추가할 숫자 입력 : "; //입력하기 
+	cout << " 추가할 숫자 입력해주세용 : "; //입력하기 
 	cin >> inputNumber;
     
     int* Temp = new int[Size + 1]; 
@@ -40,7 +40,7 @@ int main()
     Numbers = Temp;
 
     
-    cout << "업데이트된 배열: ";
+    cout << "업데이트된 배열입니당 : ";
     for (int i = 0; i < Size + 1; ++i) {
         cout << Numbers[i] << " ";
     }
